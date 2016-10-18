@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class HeroMovement : MonoBehaviour {
+public class HeroFreeMovement : MonoBehaviour {
 
     //Hero Object for game movement and transformations
     public Rigidbody2D hero;

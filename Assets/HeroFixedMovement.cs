@@ -20,7 +20,7 @@ public class HeroFixedMovement : MonoBehaviour {
     Vector2 moveDirection = Vector2.zero;
 
     //Ground detection and wall detection booleans
-    bool grounded = false;
+    bool grounded = true;
     bool walled = false;
 
     //Detects which direction the character is facing
